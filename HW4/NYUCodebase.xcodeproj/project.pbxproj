@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		5DF607072184D42E00319479 /* sheet.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DF607062184D42E00319479 /* sheet.png */; };
 		5DF6070921893AB500319479 /* font1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DF6070821893AB400319479 /* font1.png */; };
+		5DF6070C219DEC4C00319479 /* FlareMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DF6070A219DEC4B00319479 /* FlareMap.cpp */; };
+		5DF6070E219DEE7000319479 /* arne_sprites.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DF6070D219DEE7000319479 /* arne_sprites.png */; };
+		5DF60710219DEEDD00319479 /* untitled..txt in Resources */ = {isa = PBXBuildFile; fileRef = 5DF6070F219DEEDD00319479 /* untitled..txt */; };
 		6D5A86AE19AE5C710066C1FD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D5A86AD19AE5C710066C1FD /* Cocoa.framework */; };
 		6D5A86B819AE5C710066C1FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D5A86B619AE5C710066C1FD /* InfoPlist.strings */; };
 		6D5A86BA19AE5C710066C1FD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D5A86B919AE5C710066C1FD /* main.cpp */; };
@@ -27,6 +30,10 @@
 /* Begin PBXFileReference section */
 		5DF607062184D42E00319479 /* sheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sheet.png; sourceTree = "<group>"; };
 		5DF6070821893AB400319479 /* font1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = font1.png; sourceTree = "<group>"; };
+		5DF6070A219DEC4B00319479 /* FlareMap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FlareMap.cpp; sourceTree = "<group>"; };
+		5DF6070B219DEC4C00319479 /* FlareMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlareMap.h; sourceTree = "<group>"; };
+		5DF6070D219DEE7000319479 /* arne_sprites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arne_sprites.png; sourceTree = "<group>"; };
+		5DF6070F219DEEDD00319479 /* untitled..txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = untitled..txt; sourceTree = "<group>"; };
 		6D5A86AA19AE5C710066C1FD /* NYUCodebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYUCodebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D5A86AD19AE5C710066C1FD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		6D5A86B019AE5C710066C1FD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -133,7 +140,11 @@
 				6DEF23C01B96CC2600BCE792 /* vertex.glsl */,
 				5DF6070821893AB400319479 /* font1.png */,
 				6D5A86B919AE5C710066C1FD /* main.cpp */,
+				5DF6070F219DEEDD00319479 /* untitled..txt */,
+				5DF6070D219DEE7000319479 /* arne_sprites.png */,
 				5DF607062184D42E00319479 /* sheet.png */,
+				5DF6070A219DEC4B00319479 /* FlareMap.cpp */,
+				5DF6070B219DEC4C00319479 /* FlareMap.h */,
 			);
 			name = Code;
 			sourceTree = "<group>";
@@ -191,11 +202,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DF6070E219DEE7000319479 /* arne_sprites.png in Resources */,
 				6D5A86B819AE5C710066C1FD /* InfoPlist.strings in Resources */,
 				6DEF23C11B96CC2600BCE792 /* fragment.glsl in Resources */,
 				6DE9D2F11BA6AB8C002D599C /* fragment_textured.glsl in Resources */,
 				5DF6070921893AB500319479 /* font1.png in Resources */,
 				6D5A86C619AE5C710066C1FD /* Images.xcassets in Resources */,
+				5DF60710219DEEDD00319479 /* untitled..txt in Resources */,
 				6D5A86BE19AE5C710066C1FD /* Credits.rtf in Resources */,
 				5DF607072184D42E00319479 /* sheet.png in Resources */,
 				6DEF23C41B96CC2600BCE792 /* vertex.glsl in Resources */,
@@ -212,6 +225,7 @@
 			files = (
 				6DEF23C31B96CC2600BCE792 /* ShaderProgram.cpp in Sources */,
 				6D5A86BA19AE5C710066C1FD /* main.cpp in Sources */,
+				5DF6070C219DEC4C00319479 /* FlareMap.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
